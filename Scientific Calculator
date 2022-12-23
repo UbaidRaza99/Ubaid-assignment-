@@ -1,0 +1,63 @@
+#include <iostream>
+// Include the cmath library
+#include <cmath>
+using namespace std;
+int sum(int a,int b);
+int sub(int a, int b);
+int pro(int a, int b);
+float divid(float a, float b);
+
+int main()
+{ int a,b,ADD,SUB,PRO,DIVID;
+cin>>a;
+cin>>b;
+ADD=sum (a,b);
+cout<<"Sum is="<<ADD<<endl;
+SUB=sub (a,b);
+cout<<"Subract is="<<SUB<<endl;
+PRO=pro (a,b);
+cout<<"Product is="<<PRO<<endl;
+DIVID=divid (a,b);
+cout<<"Divide is="<<DIVID<<endl;
+cout<<"Square of (A)"<<"is="<<sqrt(a)<<endl;
+cout<<"Square of (B)"<<"is="<<sqrt(b)<<endl;
+
+cout<<"Log of (A)"<<" is= "<<log(a)<<endl;
+cout<<"Log of (B) "<<"is= "<<log(b)<<endl;
+cout<<"Sin of (A)"<<" is= "<<sin(a)<<endl;
+cout<<"Sin of  (B)"<<" is= "<<sin(b)<<endl;
+cout<<"Cosec of (A) "<<"is= "<<sinh(a)<<endl;
+cout<<"Cosec of (B) "<<"is= "<<sinh(b)<<endl;
+cout<<"Tan of (A)"<<" is= "<<tan(a)<<endl;
+cout<<"Tan of (B)"<<" is= "<<tan(b)<<endl;
+cout<<"Cot of (A)"<<" is= "<<tanh(a)<<endl;
+cout<<"cot of (B)"<<" is= "<<tanh(b)<<endl;
+
+cout<<"Cos of (A)"<<" is= "<<cos(a)<<endl;
+cout<<"Cos of (B)"<<" is= "<<cos(b)<<endl;
+cout<<"sec of (A)"<<" is= "<<cosh(a)<<endl;
+cout<<"Sec of (B)"<<" is= "<<cosh(b)<<endl;
+
+
+
+
+
+return 0;
+}
+int sum (int a, int b)
+{return a+b;
+}
+int sub(int a, int b)
+{
+return a-b;
+}
+
+int pro(int a, int b)
+{return a*b;
+}
+float divid(float a, float b)
+{return a/b;
+}
+int log(double a, double b)
+{return  log(a);
+}
